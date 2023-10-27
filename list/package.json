@@ -1,0 +1,23 @@
+{
+  "name": "list",
+  "private": true,
+  "version": "1.0.1",
+  "homepage": "https://github.com/dev1amin/lista-de-tarefas-reactt",
+  "src": "./src",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "vite build && gh-pages -d build"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.17.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^4.5.0"
+  }
+}
