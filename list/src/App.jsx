@@ -1,11 +1,9 @@
-import './App.css';
-import TaskApp  from './components/taskapp'
+import Lista from "./components/lista";
 
 function App() {
-
   return (
     <div className="App">
-      <TaskApp />
+      <Lista />
     </div>
   );
 }
