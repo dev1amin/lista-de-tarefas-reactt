@@ -1,0 +1,53 @@
+.footer {
+    background-color: #1a73e8;
+    color: white;
+    padding: 1px 0;
+  }
+  
+  .wave-container {
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-60deg, transparent 10%, rgba(255, 255, 255, 0.2) 50%, transparent 90%);
+    background-size: 100% 40px;
+    animation: waveAnimation 1.5s linear infinite;
+  }
+  
+  @keyframes waveAnimation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons {
+    margin-top: 5px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
